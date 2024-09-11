@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    bottom: 0;
+    height: 40px;
+    margin-top: 3em;
+    padding:1em 10em 1em 10em ;
+    background-color: pink;
+  }
+  
+  footer > img{
+    width: 200px;
+    margin: 0;
+  }
+  
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3em;
+
+}
+.redes>img{
+    width: 40px;
+}
