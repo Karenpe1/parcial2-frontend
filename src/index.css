@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.home{
+  padding: 3em 0em;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -22,8 +24,6 @@ code {
 h1{
   text-align: center;
 }
-
-
 
 a{
   color: #000;
@@ -89,11 +89,19 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-
+.light{
+  background-color: white;
+}
 .dark{
-  background-color: #12121296;
+  background-color: #181818c0;
   color: white;
 }
 .dark > a {
+  color: white;
+}
+.cardLight h3, .cardLight h4, .cardLight button{
+  color: black;
+}
+.cardDark h3,.cardDark h4, .cardDark button{
   color: white;
 }

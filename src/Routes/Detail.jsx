@@ -29,7 +29,7 @@ const Detail = () => {
     })
   },[])
   return (
-    <>
+    <div className={`${state.theme? "light": "dark"} ${"home"}`}>
       {state.loading ? (
         <>
           <h2 style={title}>Cargando Informacion</h2>
@@ -58,8 +58,8 @@ const Detail = () => {
           
          </>
          
-      )};
-    </>
+      )}
+    </div>
   )
 }
 export default Detail

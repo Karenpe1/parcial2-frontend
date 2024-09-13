@@ -6,9 +6,7 @@ footer {
     position: relative;
     bottom: 0;
     height: 40px;
-    margin-top: 3em;
     padding:1em 10em 1em 10em ;
-    background-color: pink;
   }
   
   footer > img{
@@ -24,4 +22,12 @@ footer {
 }
 .redes>img{
     width: 40px;
+}
+.light {
+  background-color: pink;;
+}
+
+.dark {
+background-color: rgb(238, 131, 206);
+color: #ecf0f1;
 }

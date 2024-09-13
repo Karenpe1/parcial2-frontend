@@ -8,11 +8,11 @@ const Home = () => {
   const {state} = useContextGlobal();
 
   return (
-    <main className="" >
+    <main className={`${state.theme ? "light" : "dark"} ${"home"}`} >
       <h1>Home</h1>
       <div className='card-grid'>
         {/* Aqui deberias renderizar las cards */}
-        {state.data.map((data)=>(
+        {state.data && state.data.map((data)=>(
             <Card key={data.id} doc={data}/>
         ))}
       </div>

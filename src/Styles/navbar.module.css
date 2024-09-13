@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: pink;
     padding: 1em 10em 1em 10em;
   
 }
@@ -18,4 +17,13 @@
 h2{
     font-size: 1.8em;
     font-weight: 400;
+}
+.light {
+    background-color: pink;;
+  }
+  
+  /* Estilos para el tema oscuro */
+.dark {
+background-color: rgb(238, 131, 206);
+color: #ecf0f1;
 }
